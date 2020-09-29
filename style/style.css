@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --l-gray: gainsboro;
+    --silver: #c0c0c0;
+    --dark-gray: #a9a9a9;
+    --gray: #808080;
+    --blue-gray: ##d3d3d3;
+    --green-gray: #696969;
+    --black: #000;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.navbar {
+    background-color: #3d3232;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+.navbar a,
+input {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-right: 15%;
+    text-decoration: none;
+}
+
+.search {
+    margin-left: 20%;
+    position: relative;
+}
+
+.search-input {
+    height: 45px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.fa-search {
+    position: absolute;
+    left: 8px;
+    top: 30%;
+}
+
+.section1-grid {
+    padding-left: 20%;
+    font-size: 30px;
+    font-weight: bolder;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.grid1 {
+    background-color: #383333;
+}
+.grid2 {
+    background-color: #2e2727;
+}
+.grid3 {
+    background-color: #2e2727;
+}
+.grid4 {
+    background-color: #383333;
+}
+
+.position {
+    position: absolute;
+    top: 100px;
+    right: 500px;
+    width: 400px;
+    text-align: center;
+    background-color: white;
+    font-size: 40px;
+}
+
+.person {
+    transform: rotate(-20deg);
+    margin-bottom: 30px;
+    float: left;
+}
+
+.person:hover {
+    transform: rotate(0deg);
+}
+
+.author {
+    margin-right: 5px;
+}
+.comment {
+    padding-bottom: 50px;
+}
+
+.section1-grid-par {
+    margin-bottom: 10%;
+    clear: both;
+}
+
+.section-5 h1,
+p {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+.User-exp {
+    justify-content: space-around;
+}
+
+.User-exp p {
+    font-size: 20px;
+}
